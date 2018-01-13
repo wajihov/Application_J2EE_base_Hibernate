@@ -1,0 +1,50 @@
+body {
+	background: #8080803d;
+}
+
+div {
+	border: 1px dotted graytext;
+	padding: 10px;
+	margin: 10px;	
+}
+
+.table1 th {
+	border: 1px solid Black;
+	padding: 10px;
+	background: #ffc0cb69;
+}
+
+.table1 td {
+	border: 1px solid gray;
+	padding: 10px;
+	background: #c4ffc0d9;
+}
+
+.table2 th {
+	color: #00d76b;
+	font-size: 24px;
+	border: 1px solid Black;
+	padding: 10px;
+	background: #ffc0cb69;
+}
+
+.table2 td {
+	border: 1px solid gray;
+	padding: 10px;
+	background: #c4ffc0d9;
+}
+.btn{
+	padding:0px;
+    width:80px;
+    height:30px;    
+    color:#400080;
+    background:#9FDA90;
+    border:1px solid #6EB45C;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.erreur{
+	color: red;
+}
