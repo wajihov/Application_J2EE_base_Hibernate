@@ -28,7 +28,6 @@
 						</td>
 					</tr>
 				</c:if>
-
 				<tr>
 					<td>Nom article</td>
 					<td><input type="text" name="nomArt" required="required"
@@ -56,14 +55,11 @@
 					</c:if>
 				</tr>
 			</table>
-
 		</form>
 	</div>
 	<c:if test="${erreur!=null }">
 		<div align="center" class="erreur">${erreur }</div>
 	</c:if>
-	
-
 	<div align="center">
 		<table class="table1">
 			<tr>
